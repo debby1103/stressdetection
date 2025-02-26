@@ -6,7 +6,11 @@ pip install -r requirements.txt
 
 ### 1.Describe Learning
 DISFA+ dataset is accessible [here](http://mohammadmahoor.com/disfa-plus-request-form/)
-
+if choose to employ GPT-4V to annotate:
+```
+cd model
+python GPTannotate.py {your_api_key}
+```
 #### Transform original images&labels into QA pairs.
 
 TBD. (CL)
